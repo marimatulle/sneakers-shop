@@ -1,0 +1,22 @@
+/* Aumentar a altura da toolbar */
+.mat-toolbar {
+    background-color: #92280c;
+    height: 64px;
+    /* Ajuste conforme necessário */
+}
+
+/* Tornar os botões mais espaçados e responsivos */
+.example-button-row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    /* Defina um valor máximo para evitar que os botões se espalhem muito */
+    margin: 0 auto;
+    /* Centralizar os botões na tela */
+}
+
+.example-button-row .mat-mdc-button-base {
+    margin: 8px 8px 8px 0;
+    font-size: 17px;
+    flex: 1;
+}
