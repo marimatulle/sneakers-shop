@@ -3,15 +3,57 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-body',
   templateUrl: './body.component.html',
-  styleUrls: ['./body.component.scss']
+  styleUrls: ['./body.component.scss'],
 })
 export class BodyComponent {
   products = [
-    { name: 'Nike Travis Scott X PlayStation', price: '$1,500', image: 'https://static.cloud-boxloja.com/lojas/ym522/produtos/e9c8b470-c8ef-4f87-8e4a-e6e87feed2e5.jpg'},
-    { name: 'Adidas Forum Low X Bad Bunny', price: '$509', image: 'https://static.cloud-boxloja.com/lojas/ym522/produtos/e1dd0b32-40fb-4032-bb5f-9d6d50f2cba9.png'},
-    { name: 'Yeezy 500 Enflame', price: '$187', image: 'https://static.cloud-boxloja.com/lojas/ym522/produtos/c5629844-a65c-4157-93fb-be91849eead0.jpg'},
-    { name: 'Nike Air Max 97', price: '$122', image: 'https://static.cloud-boxloja.com/lojas/ym522/produtos/e71b6783-6ebb-4a2c-b721-2087eb7d81d9.jpg'},
-    { name: 'Jordan 1 Retro High OG Spider-Man Across the Spider-Verse', price: '$699', image: 'https://static.cloud-boxloja.com/lojas/ym522/produtos/900efeed-fe65-40fa-bde4-3dfb5ca10c6e.jpg'},
-    { name: 'Nike SB Dunk Low Freddy Krueger', price: 'R$2,000', image: 'https://static.cloud-boxloja.com/lojas/ym522/produtos/ea600d43-eebf-4a7f-aaa4-920325cf67ae.jpg'},
-  ]
+    {
+      name: 'Nike Travis Scott X PlayStation',
+      price: 'R$4,500',
+      image:
+        'https://sneakernews.com/wp-content/uploads/2020/10/travis-scott-nike-dunk-playstation-5-release-info-7.jpg',
+    },
+    {
+      name: 'Adidas Forum Low X Bad Bunny',
+      price: 'R$700,00',
+      image:
+        'https://sneakernews.com/wp-content/uploads/2021/03/Bad-Bunny-adidas-Forum-Buckle-Lo-GW0264-9.jpeg',
+    },
+    {
+      name: 'Yeezy 500 Enflame',
+      price: 'R$2,000',
+      image:
+        'https://sneakernews.com/wp-content/uploads/2021/05/yeezy-enflame.jpg',
+    },
+    {
+      name: 'Nike Air Max 97',
+      price: 'R$599,00',
+      image:
+        'https://sneakernews.com/wp-content/uploads/2022/04/Nike-Air-Max-97-DX3947-200-1.jpg',
+    },
+    {
+      name: 'Jordan 1 Retro High OG Spider-Man Across the Spider-Verse',
+      price: 'R$700,00',
+      image:
+        'https://sneakernews.com/wp-content/uploads/2022/12/Air-Jordan-1-Across-the-Spider-Verse-3.jpg',
+    },
+    {
+      name: 'Nike Air Trainer 1 Neutral Olive',
+      price: 'R$2,000',
+      image:
+        'https://sneakernews.com/wp-content/uploads/2023/11/nike-air-trainer-1-neutral-olive-light-bone-dark-stucco-fj4182-200-10.jpg',
+    },
+    {
+      name: 'Puma Plexus',
+      price: 'R$1,400',
+      image:
+        'https://sneakernews.com/wp-content/uploads/2023/01/PUMA-PLEXUS-Eggnog-Elektro-Green-390456-01-6.jpg',
+    },
+    {
+      name: 'Adidas ADI2000 New Lime Green',
+      price: 'R$2,350',
+      image:
+        'https://sneakernews.com/wp-content/uploads/2022/01/adidas-ADI-2000-GY5272-0.jpg',
+    },
+  ];
 }
